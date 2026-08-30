@@ -1,65 +1,33 @@
-# Tejas Thorat — Cybersecurity & Offensive Security Portfolio
+# Tejas Thorat — Offensive Security Portfolio
 
-A modern, high-performance cybersecurity portfolio website for **Tejas Thorat** (Penetration Tester • Bug Hunter • Cybersecurity Researcher). Built with **React 19**, **TypeScript**, **Tailwind CSS v4**, and **Vite**.
+> **Penetration Tester • Bug Hunter • Cybersecurity Researcher**  
+> Specialized in Web Application Security, API Penetration Testing, Network Infrastructure, and Custom Reconnaissance Tooling.
 
-## 🛡️ Key Portfolio Highlights
+🔗 **Live Website:** [https://tejassroot.github.io/](https://tejassroot.github.io/)  
+📄 **Live Resume:** [https://tejassroot.github.io/Tejas_Thorat_Resume.pdf](https://tejassroot.github.io/Tejas_Thorat_Resume.pdf)
 
-- **Aesthetic**: Premium dark cybersecurity aesthetic (`#080c14` charcoal/carbon backdrop with electric emerald & cyan accents, subtle terminal elements, zero cheesy hacker tropes).
-- **Interactive Terminal Widget**: Authentic `$ whoami`, `$ focus`, `$ methodology`, `$ status` console with live commands (`tools`, `certs`, `contact`, `clear`) and 1-click clipboard copy.
-- **Quantified Impact Metrics**: 10+ Web Apps Assessed, 20+ Verified Vulns, 15+ Bug Bounty Targets, 10+ VAPT Reports Authored, 100,000+ Network Packets Analyzed.
-- **Professional Timeline**: Cyber Security Intern at *RudraTech Services* (+40% patch turnaround improvement) & Freelance Bug Hunter (*HackerOne* & *Bugcrowd*).
-- **Categorized Skills**: Categorized into *Web & API Security*, *Network Security*, *Reconnaissance*, *Tools & Utilities*, and *Programming & OS* with interactive instant search & category filtering.
-- **Featured Projects**:
-  - **ReconAutomator**: Multi-stage external attack-surface discovery pipeline (Bash, Python, Subfinder, Dnsx, Httpx, Katana, Naabu) with interactive workflow/terminal logs.
-  - **JSFinder**: Asynchronous JavaScript asset & hidden endpoint discovery tool (Python, Asyncio, Regex) with live sample output previews.
-- **Methodology ("How I Hunt")**: 7-stage security lifecycle (01 Scope, 02 Recon, 03 Attack Surface, 04 Manual Testing, 05 Validation, 06 Impact, 07 Reporting) emphasizing manual validation over automated noise.
-- **Hall of Fame**: Responsible disclosure recognition badges for *Microsoft*, *Bosch*, *Adore Me*, *Victoria's Secret*, *TU Delft*, *Dick's Sporting Goods*, and *Genius*.
-- **Certifications & Honors**: CRTA (In Progress), MCRTA (In Progress), IBM Cybersecurity Fundamentals, Cisco Ethical Hacker, and *Intern of the Month* award at RudraTech.
-- **Interactive Resume / CV Modal**: Full formatted CV viewer with 1-click **Print / Save PDF** (`window.print()`) and **ATS Plain-Text Copy**.
-- **Contact Channel**: Direct inquiry dispatcher, WhatsApp/Phone link, Location, LinkedIn, and GitHub links.
+---
 
-## 🚀 Getting Started
+### 🛡️ Areas of Focus
 
-### Install Dependencies
-```bash
-npm install
-```
+- **Web Application Penetration Testing (VAPT):** Deep manual validation of Broken Access Control (BAC), authentication flaws, session security, and OWASP Top 10 vulnerabilities.
+- **API Security:** REST & GraphQL endpoint assessment, BOLA/IDOR discovery, authorization boundary drift, and state manipulation.
+- **Enterprise Network & Wireless Auditing:** Internal and external perimeter analysis, deep packet analysis via Wireshark, and enterprise WiFi assessments.
+- **Attack-Surface Intelligence:** High-concurrency asset discovery, JavaScript route extraction, and automated reconnaissance pipelines.
 
-### Start Development Server
-```bash
-npm run dev
-```
+---
 
-### Production Build & Preview
-```bash
-npm run build
-npm run preview
-```
+### 🏆 Security Research & Responsible Disclosure
 
-## 📁 Architecture
+Active security researcher on **HackerOne** and **Bugcrowd** with 10+ valid medium- and high-severity findings reported through coordinated vulnerability disclosure.
 
-```
-src/
-├── components/
-│   ├── About.tsx           # Narrative & 4 core security pillars
-│   ├── Certifications.tsx  # Certifications, Honors, Education
-│   ├── Contact.tsx         # Direct dispatcher, phone, email, socials
-│   ├── Experience.tsx       # RudraTech & Freelance Bug Hunter timeline
-│   ├── Footer.tsx          # Security philosophy quote & copyright
-│   ├── Hero.tsx            # Headline, CTAs, status badges
-│   ├── icons.tsx           # Pixel-perfect GitHub & LinkedIn icons
-│   ├── Methodology.tsx     # 7-stage "How I Hunt" interactive pipeline
-│   ├── Navbar.tsx          # Frosted sticky nav with live status badge
-│   ├── Projects.tsx        # ReconAutomator & JSFinder deep-dive cards
-│   ├── ResearchHoF.tsx     # Bug bounty achievements & Hall of Fame
-│   ├── ResumeModal.tsx     # Printable CV & ATS text copy modal
-│   ├── Skills.tsx          # Categorized competencies with instant search
-│   ├── StatsBar.tsx        # 5 verified metric callout cards
-│   └── TerminalWidget.tsx  # Interactive terminal status panel
-├── data/
-│   └── portfolioData.ts    # Single source of truth for portfolio data
-├── types.ts                # TypeScript domain models
-├── App.tsx                 # Root layout assembler
-├── index.css               # Tailwind CSS v4 & custom cyber themes
-└── main.tsx                # React entrypoint
-```
+**Hall of Fame Recognitions:**  
+`Microsoft` • `Bosch` • `Adore Me` • `Victoria's Secret` • `TU Delft` • `Dick's Sporting Goods` • `Genius`
+
+---
+
+### 📬 Direct Channels
+
+- **Email:** [thorattejas45@gmail.com](mailto:thorattejas45@gmail.com)
+- **LinkedIn:** [linkedin.com/in/tejas-thorat-542533253](https://www.linkedin.com/in/tejas-thorat-542533253/)
+- **GitHub:** [github.com/tejassroot](https://github.com/tejassroot)
