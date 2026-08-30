@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  
+  --color-canvas: #090a0c;
+  --color-surface-1: #0e1014;
+  --color-surface-2: #14171d;
+  --color-border-subtle: rgba(255, 255, 255, 0.08);
+  --color-border-hover: rgba(255, 255, 255, 0.18);
+  
+  --color-accent-emerald: #10b981;
+  --color-accent-cyan: #38bdf8;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #090a0c;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #090a0c;
+  color: #f4f4f6;
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  letter-spacing: -0.01em;
+}
+
+/* Subtle hairline borders and grid */
+.hairline-border {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.hairline-border-b {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.hairline-border-t {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Minimalist scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #090a0c;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1c2027;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2d333f;
+}
+
+/* Selection */
+::selection {
+  background-color: rgba(16, 185, 129, 0.2);
+  color: #34d399;
+}
+
+/* Editorial Print Styles */
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #090a0c !important;
+  }
+  
+  .no-print {
+    display: none !important;
+  }
+  
+  .print-only {
+    display: block !important;
+  }
+
+  .print-document {
+    background: #ffffff !important;
+    color: #090a0c !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+}
